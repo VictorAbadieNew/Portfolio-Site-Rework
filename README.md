@@ -13,3 +13,4 @@ Home Page was a breeze
 
 About Page was pretty easy, but I need to learn how to center photos / create borders or lines to seperate parts of the page
 
+Checking to see if branch is working again
