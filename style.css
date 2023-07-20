@@ -78,6 +78,7 @@ html {
     width: 13vw;
     height: 18vw;
     padding: 30px;
+    margin-left: 20px;
   }
   
   .Albums {
@@ -85,6 +86,7 @@ html {
     width: 13vw;
     height: 18vw;
     padding: 30px;
+    margin-left: 20px;
   }
 
   .projects {
@@ -104,8 +106,8 @@ html {
   }
 
   .Photos {
+    padding: 15px;
     width: 16vw;
     height: 18vw;
-    padding: 15px;
   }
 
