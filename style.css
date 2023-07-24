@@ -2,9 +2,9 @@ html {
     background-color: aliceblue;
   }
   
-  body {
-  margin-left: 22vw;
-  margin-right: 22vw;}
+  /* body { */
+  margin-left: 20vw;
+  margin-right: 20vw;}
   
   h1,h2 {
     font-weight: 300;
@@ -111,3 +111,49 @@ html {
     height: 18vw;
   }
 
+  .updates {
+    color: blueviolet
+  }
+
+/* footer { 
+   max-width: 1000px;
+} */
+
+.form-boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 0.5rem 0;
+  align-items: center;
+}
+
+/* .form-boxes label {
+} */
+
+
+/***************** Media Queries *******************/
+
+/* Mobile Screens Practice */
+/* basically removes extra text above boxes and leaves only text inside below 500px */
+@media screen and (max-width: 500px) {
+  .form-boxes label {
+display: block;
+display: none;
+  }
+}
+
+/* @media screen and (max-width: 1000px) {
+  .form-boxes {
+    flex-direction: row;
+  }
+
+  .form-boxes label {
+    flex-basis: 29rem;
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+
+  .form-boxes button {
+    flex-basis: 29rem;
+  }
+} */
