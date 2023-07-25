@@ -1,10 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+html, body, div, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+}
+
+
 html {
     background-color: aliceblue;
   }
   
-  /* body { */
+  /* body {
   margin-left: 20vw;
-  margin-right: 20vw;}
+  margin-right: 20vw;} */
   
   h1,h2 {
     font-weight: 300;
@@ -14,7 +30,7 @@ html {
   }
   
   h1 {
-    font-size: 2em;
+    font-size: 50px;
     color: blueviolet ;
     text-shadow: 2px 2px 1px yellow;
   }
@@ -67,27 +83,33 @@ html {
     background-color: white;
     display: block;
     box-shadow: 0 0 12px -2px;
-    min-height: 100vh;
+    min-height: 50vh;
     padding-top: .5vw;
     padding-left: 1vw;
     padding-right: 1vw;
+    padding-bottom: 20px;
   }
   
-  .VibrantArt {
-    display: inline-block;
-    width: 13vw;
-    height: 18vw;
-    padding: 30px;
-    margin-left: 20px;
+  .Photos {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 10px 100px -2px purple;
   }
-  
+ 
+ 
   .Albums {
-    display: inline-block;
-    width: 13vw;
-    height: 18vw;
-    padding: 30px;
-    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 10px 100px -2px yellow;
   }
+ 
+  .VibrantArt {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 10px 100px -2px purple;
+  }
+  
+
 
   .projects {
     box-shadow: 0 10px 100px -2px purple;
@@ -103,12 +125,16 @@ html {
   .projecttext {
     font-size: 20px;
     font-family: cursive;
+    text-align: center;
   }
 
-  .Photos {
-    padding: 15px;
-    width: 16vw;
-    height: 18vw;
+
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
   }
 
   .updates {
