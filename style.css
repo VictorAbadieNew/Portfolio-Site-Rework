@@ -32,13 +32,13 @@ html {
   h1 {
     font-size: 50px;
     color: blueviolet ;
-    text-shadow: 2px 2px 1px yellow;
+    text-shadow: 2px 2px 1px white;
   }
   
   h2 {
     font-size: 1.5em;
     color: blueviolet;
-    text-shadow: 2px 2px 1px yellow;
+    text-shadow: 2px 2px 1px white;
   }
   
   .quote {
@@ -137,6 +137,7 @@ html {
     font-size: 20px;
     font-family: cursive;
     text-align: center;
+    padding-bottom: 15px;
   }
 
 
