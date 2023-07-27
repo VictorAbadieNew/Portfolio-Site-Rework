@@ -15,7 +15,7 @@ body {
 
 
 html {
-    background-color: aliceblue;
+    background: linear-gradient(50deg, blueviolet, yellow, white);
   }
   
   /* body {
@@ -71,12 +71,22 @@ html {
   
   .HAPlinks a {
     text-decoration: none;
-    color: gold;
+    color: white;
+  }
+
+  a:hover {background-color: white;}
+
+  .mainphoto {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    justify-content: center;
+    justify-content: space-around;
   }
   
   .name {
     font-size: 2em;
-    color: gold;
+    color:  white;
   }
   
   main {
@@ -112,6 +122,7 @@ html {
 
 
   .projects {
+    background-color: white;
     box-shadow: 0 10px 100px -2px purple;
   }
 
